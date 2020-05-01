@@ -1,0 +1,20 @@
+TIMERS:
+------------------------------------------------
+TCCR0(timer counter control reg):
+
+CS00
+CS01     -->>clock select
+CS02
+
+WGM00
+WGM02    -->>wave generation mode (1.Normal(00) 2.PWM 3.CTC 4.Fast PWM)
+
+COM00
+COM01    -->>Compare out mode(an event occcurs when overflow happens)
+
+00 (OCO disconnected)
+01 (Toggle OCO)
+10 (Clear OCO)
+11 (Set OCO)
+
+NORMAL(00000101)
